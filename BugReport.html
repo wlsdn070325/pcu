@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<title>버그 리포트</title>
+<body>
+
+    <form>
+        오류 발생 시간을 기록해주세요<br>
+        <input type="time" value="15:30"><br><br>
+
+        오류의 심각도를 알려주세요<br>
+        <input type="range" list="temp">
+        <datalist id="temp">
+            <option value="10" label="Low">
+            <option value="30" label="Low1">
+            <option value="50" label="Midium">
+            <option value="70" label="Midium1">
+            <option value="90" label="High">
+        </datalist><br><br>
+
+        오류의 상세 내용을 작성해주세요<br>
+        <textarea cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="제출">
+    </form>
+</body>
